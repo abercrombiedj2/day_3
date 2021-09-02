@@ -83,9 +83,7 @@ print_menu()
 running = True
 while running:
     option = input("Please enter an option from the menu above: ")
-    if option == "Q" or "q":
-        break
-    elif option == "1":
+    if option == "1":
          print(tasks)
     elif option == "2":
         uncompleted(tasks)
@@ -101,3 +99,5 @@ while running:
         add_task(input("Enter task: "), tasks)
     elif option == "M" or "m":
         print_menu()
+    elif option == "Q" or "q":
+        break
