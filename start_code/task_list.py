@@ -97,7 +97,7 @@ while running:
         task_description(input("Enter description: "), tasks)
     elif option == "7":
         add_task(input("Enter task: "), tasks)
-    elif option == "M" or "m":
+    elif option == "M" or option == "m":
         print_menu()
-    elif option == "Q" or "q":
+    elif option == "Q" or option == "q":
         break
